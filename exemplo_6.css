@@ -1,0 +1,40 @@
+body {
+    color: #000;
+    font: 12px Verdana, sans-serif;
+    }
+  
+    #conteudo {
+          width: 70%;
+         /* text-align: center;*/
+          }
+  
+      #menu {
+        
+        width: 10%;
+        margin: 0; 
+        padding: 0;
+       
+        }
+  
+        #menu ul li {
+          margin: 0; padding: 0px;
+          border-bottom: 1px solid #7a7474;
+          text-align: left;
+          list-style-type: none;
+          text-align: center;
+          }
+  
+          #menu a:link {
+            background: #decfcf;
+            color: #666;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 8px;
+            display: block;
+            }
+  
+            #menu a:hover {
+              background: #b0cdea;
+              color: #039;
+              }
+  

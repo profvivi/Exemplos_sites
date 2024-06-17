@@ -1,0 +1,23 @@
+.menu-h ul{
+    list-style: none;
+    padding: 0 30%;
+    background-color: rgb(42, 42, 43);   
+}
+
+.menu-h ul li{
+    display: inline;
+}
+
+.menu-h ul li a{
+    color: #FFFFFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background ,4s; 
+}
+
+.menu-h ul li a:hover{
+    background-color: rgb(114, 158, 212);
+    
+}
+

@@ -1,0 +1,80 @@
+:root {
+    --branco: #FFF;
+  
+    --vermelho-forte: #B72E2E;
+    
+    --borda-cabecalho-mobile: #103D4A;
+    
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.cabecalho {
+    color: var(--branco);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+    position: absolute;
+}
+
+.cabecalho__logo {
+    margin-bottom: 1rem;
+}
+
+
+
+.cabecalho__link {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
+.chamada  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--branco);
+    text-align: center;
+    
+    background-color: var(--bg-chamada-mobile);
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+
+        border: none;
+    }
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+    .chamada {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+
+        padding-top: 8.25rem;
+    }
+}
