@@ -1,0 +1,15 @@
+body{
+    background-color: #CCCCCC;
+}
+
+nav {
+    background: #FFFFFF;
+    width: 250px;
+    box-shadow: 1px 0px 3px #CCCCCC;
+    float: left;
+    position: fixed;
+}
+
+main{
+    float: right;
+}
