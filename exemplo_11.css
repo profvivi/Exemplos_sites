@@ -1,9 +1,17 @@
-.imagem-fundo{
+/*.imagem-fundo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}*/
+
+body{
+    color: aliceblue;
+    background-image: url(img_11/tecnologia.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
 }
 
-body{
+h1{
     color: aliceblue;
 }
