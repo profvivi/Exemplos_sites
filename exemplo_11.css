@@ -1,4 +1,11 @@
-.imagem-fundo{
+/*.imagem-fundo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}*/
+
+body{
+    background-image: url(img_11/tecnologia.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
