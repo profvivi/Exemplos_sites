@@ -14,4 +14,5 @@ body{
 
 h1{
     color: rgb(30, 92, 146);
+    float: left;
 }
