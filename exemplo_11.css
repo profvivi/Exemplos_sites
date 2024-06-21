@@ -1,8 +1,8 @@
 .imagem-fundo{
-    background-image: url(img_11/tecnologia.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    width: 100vw;
 }
 
 
