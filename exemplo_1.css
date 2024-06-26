@@ -157,7 +157,7 @@ input:checked ~ .menu-hamburguer-elements{
       display: flex;
       align-items: center;
       flex-direction: column;
-      justify-content: center;
+      justify-content: left;
   
       padding-top: 15vh;
   
