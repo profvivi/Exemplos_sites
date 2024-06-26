@@ -166,7 +166,7 @@ input:checked ~ .menu-hamburguer-elements{
 
   .menu{
       display: flex;
-      height: 60px;
+      height: 20px;
       width: 60px;
   }
 
