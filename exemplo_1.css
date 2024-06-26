@@ -146,7 +146,7 @@ input:checked ~ .menu-hamburguer-elements{
 
   .menu-hamburguer-elements{
       width: 60%;
-      height: 60%;
+      height: 80%;
       background-color: rgba(10,10,10,.9);
       position: fixed;
       left: -60%;
