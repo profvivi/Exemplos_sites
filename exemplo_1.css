@@ -159,14 +159,14 @@ input:checked ~ .menu-hamburguer-elements{
       flex-direction: column;
       justify-content: center;
   
-      padding-top: 15vh;
+      padding-top: 5vh;
   
       z-index: -1;
   }
 
   .menu{
       display: flex;
-      height: 20px;
+      height: 60px;
       width: 60px;
   }
 
