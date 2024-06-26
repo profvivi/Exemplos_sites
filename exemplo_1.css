@@ -143,13 +143,13 @@ input:checked ~ .menu-hamburguer-elements{
       z-index: 1;
       color: white
   }
-/*
+
   .menu-hamburguer-elements{
       width: 60%;
       height: 40%;
       background-color: rgba(10,10,10,.9);
       position: fixed;
-      left: -30%;
+      
       top: 0;
   
       transition: left cubic-bezier(1,0,0,1) .8s;
@@ -163,7 +163,7 @@ input:checked ~ .menu-hamburguer-elements{
   
       z-index: -1;
   }
-*/
+
   .menu{
       display: flex;
       height: 60px;
