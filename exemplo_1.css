@@ -149,7 +149,7 @@ input:checked ~ .menu-hamburguer-elements{
       height: 40%;
       background-color: rgba(10,10,10,.9);
       position: fixed;
-      
+      left: 0%;
       top: 0;
   
       transition: left cubic-bezier(1,0,0,1) .8s;
