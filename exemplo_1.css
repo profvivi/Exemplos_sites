@@ -148,8 +148,8 @@ input:checked ~ .menu-hamburguer-elements{
       width: 60%;
       height: 40%;
       background-color: rgba(10,10,10,.9);
-     position: relative;
-      left: -60%;
+      position: fixed;
+      left: -30%;
       top: 0;
   
       transition: left cubic-bezier(1,0,0,1) .8s;
